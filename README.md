@@ -1,9 +1,9 @@
 # Android Remote
 Remote keyboard and mouse Android application
 
-The application requires Android Remote server to be running on the computer
+This application turns your phone into a wireless keyboard and mouse with touchpad, using your own wireless network. It's an application for phones and tablets running Android operating system.
 
-Just enter the IP of the computer shown on the server application.
+The application requires Android Remote server to be running on the computer. Just enter the IP of the computer shown on the server application.
 
 ## Instructions to use 
 

@@ -11,6 +11,7 @@ import java.util.TimerTask;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -368,6 +369,8 @@ public class TouchpadActivity extends Activity {
 			} else if (event.getAction() == KeyEvent.ACTION_UP) {
 				switch (keyCode) {
 				case KeyEvent.KEYCODE_BACK:
+					Intent i = new Intent(TouchpadActivity.this, Main.class);
+					startActivity(i);
 					finish();
 					break;
 				case KeyEvent.KEYCODE_0:

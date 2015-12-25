@@ -12,4 +12,6 @@ The application requires Android Remote server to be running on the computer. Ju
 * Tap with two fingers for right-click
 * Move two fingers up/down to scroll
 
-### The APK can be found under bin directory
+* Keyboard works best when autocorrect and word suggestions are turned off
+
+### The APK can be found under executables directory

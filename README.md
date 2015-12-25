@@ -14,4 +14,4 @@ The application requires Android Remote server to be running on the computer. Ju
 
 * Keyboard works best when autocorrect and word suggestions are turned off
 
-### The APK can be found under executables directory
+### Download the APK [here](executables/AndroidRemoteMouseV2.1.apk?raw=true)

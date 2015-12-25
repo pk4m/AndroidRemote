@@ -8,10 +8,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
@@ -56,7 +54,6 @@ public class Main extends Activity {
 		for (int i = 0; i < MAX_HOSTS; i++) {
 			if (prefs.contains("IP" + i)) {
 				ipSet.add(prefs.getString("IP" + i, "value not set"));
-				Log.d("IP" + i, prefs.getString("IP" + i, "value not set"));
 			}
 		}
 		if (ipSet.size() > 0) {

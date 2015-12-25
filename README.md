@@ -12,3 +12,4 @@ Just enter the IP of the computer shown on the server application.
 * Tap with two fingers for right-click
 * Move two fingers up/down to scroll
 
+### The APK can be found under bin directory
